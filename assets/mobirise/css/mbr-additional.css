@@ -742,7 +742,7 @@ section.lazy-placeholder:after {
 .cid-rFpoP9iiyk {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rFpoP9iiyk P {
   color: #767676;
@@ -1041,14 +1041,22 @@ section.lazy-placeholder:after {
   padding-bottom: 15px;
   background-color: #232323;
 }
+.cid-rP1AUrdd0R .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
 @media (min-width: 992px) {
   .cid-rP1AUrdd0R .mbr-figure {
-    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
+  .cid-rP1AUrdd0R .media-container-row {
+    flex-wrap: wrap-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+  }
   .cid-rP1AUrdd0R .mbr-figure {
-    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 .cid-rP1AUrdd0R .mbr-text {
